@@ -90,7 +90,6 @@ for row in range(len(A)):
         count += 1
 
 # 5 is the og header for the butterfly image
-# 0 is the og header for the cat image
 order = greedy_heuristic(arr, random.randint(0, len(A) - 1), len(A))
 print(order)
 
